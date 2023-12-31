@@ -1,5 +1,5 @@
 for i = 1, 36 do
-    k2_se_ce_add_recipe("sem:spg_science-pack-"..i)
+    nihilistzsche_ce_add_recipe("sem:spg_science-pack-"..i)
 end
 
 local prefixes = {
@@ -35,5 +35,5 @@ local function is_valid_science_pack(science)
 end
 
 for _, science in pairs(data.raw["tool"]) do
-    if is_valid_science_pack(science) then k2_se_ce_add_recipe("infused-"..science.name) end
+    if is_valid_science_pack(science) then nihilistzsche_ce_add_recipe("infused-"..science.name) end
 end

@@ -1,13 +1,13 @@
 {
   "name": "spg_crafting_efficiency",
   "version": "0.0.1",
-  
+
   "title": "spg_crafting_efficiency",
   "description": "Crafting efficiency for Science Pack Galore (Forked) and Infused Science (Fixed)",
-  
+
   "author": "nihilistzsche",
   "license": "GPL3",
-  
-  "dependencies": ["base >= 1.1.6", "k2_se_crafting_efficiency", "? SciencePackGaloreForked", "? infused-science-fixed" ],
+
+  "dependencies": ["base >= 1.1.6", "nihilistzsche_crafting_efficiency", "? SciencePackGaloreForked", "? infused-science-fixed" ],
   "factorio_version": "1.1"
 }
